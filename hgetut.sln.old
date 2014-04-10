@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hgetut", "hgetut\hgetut.vcproj", "{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Debug|Win32.Build.0 = Debug|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Release|Win32.ActiveCfg = Release|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

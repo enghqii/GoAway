@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hgetut", "hgetut\hgetut.vcxproj", "{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Go Away", "Go Away\Go Away.vdproj", "{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Debug|Win32.Build.0 = Debug|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Release|Win32.ActiveCfg = Release|Win32
+		{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}.Release|Win32.Build.0 = Release|Win32
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Debug|Win32.ActiveCfg = Debug
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release
+		{311A0FA9-4A6D-41D8-AF9F-99F9AEE0E45A}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

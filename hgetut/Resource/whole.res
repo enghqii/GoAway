@@ -1,0 +1,6 @@
+Include "Resource\\Script\\Logo.res"
+Include "Resource\\Script\\Menu.res"
+Include "Resource\\Script\\Gaming.res"
+Include "Resource\\Script\\Rank.res"
+Include "Resource\\Script\\StageClear.res"
+Include "Resource\\Script\\StageSelect.res"
