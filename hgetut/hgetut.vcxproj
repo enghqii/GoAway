@@ -14,6 +14,7 @@
     <ProjectGuid>{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}</ProjectGuid>
     <RootNamespace>hgetut</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>Go away</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -44,6 +45,8 @@
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../HGE/include;../FMOD/api/inc;$(IncludePath)</IncludePath>
+    <LibraryPath>../HGE/lib;../FMOD/api/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>

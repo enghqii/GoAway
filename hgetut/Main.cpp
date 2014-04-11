@@ -6,8 +6,10 @@
 
 #include <stdlib.h>
 #include <time.h>
-#include <vld.h>
-// memory leak/*
+
+//#include <vld.h>
+
+/*
 #ifdef _DEBUG
 #include<crtdbg.h>
 #define CRT_MAP_ALLOC
@@ -100,7 +102,10 @@ int main(){
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF|_CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	wWinMain(GetModuleHandle(NULL),NULL,NULL,SW_SHOW);
+	HINSTANCE hInst;
+	LPSTR str = "Go away";
+
+	wWinMain(GetModuleHandle(NULL), hInst, str,SW_SHOW);
 	
 	GetHgeDevice()->System_Start();
 	
