@@ -47,6 +47,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>../HGE/include;../FMOD/api/inc;$(IncludePath)</IncludePath>
     <LibraryPath>../HGE/lib/vc;../FMOD/api/lib;$(LibraryPath)</LibraryPath>
+    <TargetName>GoAway</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
