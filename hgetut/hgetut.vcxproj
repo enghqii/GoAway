@@ -14,7 +14,7 @@
     <ProjectGuid>{C96ACE7D-5B3C-44E6-A3BB-3ACEF248849F}</ProjectGuid>
     <RootNamespace>hgetut</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>hgetut</ProjectName>
+    <ProjectName>GoAway</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
