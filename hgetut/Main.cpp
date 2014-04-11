@@ -91,9 +91,10 @@ void SetUp(){
 	GetGSM().ChangeState(BaseGameState::GS_LOGO);
 }
 
-int WINAPI wWinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+int WINAPI _wWinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	SetUp();
+	return 0;
 }
 
 int main(){
@@ -102,14 +103,13 @@ int main(){
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF|_CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	HINSTANCE hInst;
+	HINSTANCE hInst = NULL;
 	LPSTR str = "Go away";
 
-	wWinMain(GetModuleHandle(NULL), hInst, str,SW_SHOW);
+	_wWinMain(GetModuleHandle(NULL), hInst, str,SW_SHOW);
 	
 	GetHgeDevice()->System_Start();
 	
-
 	CleanUp();
 
 	return 0;

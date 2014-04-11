@@ -28,6 +28,18 @@ public:
 	
 	void		Render(float x, float y);
 	void		RenderEx(float x, float y, float rot, float hscale=1.0f, float vscale=0.0f);
+
+	void		RenderAlpha(float x, float y, float alpha)
+	{
+		// 불완전
+		this->Render(x, y);
+	}
+	void		RenderExAlpha(float x, float y, float rot, float hscale=1.0f, float vscale=0.0f, float alpha = 0.f)
+	{
+		// 불완전
+		this->RenderEx(x, y, rot, hscale, vscale);
+	}
+
 	void		RenderStretch(float x1, float y1, float x2, float y2);
 	void		Render4V(float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3);
 
